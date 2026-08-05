@@ -1,0 +1,18 @@
+[Unit]
+Description=Chat WebSocket server (Ratchet)
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/app/server/websocket
+ExecStart=/usr/bin/php /var/www/app/server/websocket/server.php
+Restart=on-failure
+RestartSec=2
+# Same log location PHP-FPM writes to (see server/php-fpm-pool.conf) - one place to check.
+StandardOutput=append:/var/www/app/logs/websocket.log
+StandardError=append:/var/www/app/logs/websocket.log
+
+[Install]
+WantedBy=multi-user.target
