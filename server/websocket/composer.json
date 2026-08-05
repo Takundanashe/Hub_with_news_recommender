@@ -1,0 +1,12 @@
+{
+    "name": "app/websocket-server",
+    "description": "Standalone WebSocket process for real-time chat/DMs/location, run alongside PHP-FPM.",
+    "require": {
+        "php": ">=8.1",
+        "cboden/ratchet": "^0.4.4",
+        "react/socket": "^1.14"
+    },
+    "autoload": {
+        "psr-4": { "App\\": "src/" }
+    }
+}
