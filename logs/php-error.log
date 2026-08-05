@@ -1,0 +1,37 @@
+[03-Aug-2026 21:21:39 UTC] PHP Warning:  PHP Request Startup: Failed to open stream: Permission denied in Unknown on line 0
+[03-Aug-2026 21:21:44 UTC] PHP Warning:  PHP Request Startup: Failed to open stream: Permission denied in Unknown on line 0
+[03-Aug-2026 21:21:46 UTC] PHP Warning:  PHP Request Startup: Failed to open stream: Permission denied in Unknown on line 0
+[03-Aug-2026 21:23:27 UTC] PHP Warning:  PHP Request Startup: Failed to open stream: Permission denied in Unknown on line 0
+[03-Aug-2026 21:23:28 UTC] PHP Warning:  PHP Request Startup: Failed to open stream: Permission denied in Unknown on line 0
+[03-Aug-2026 21:23:47 UTC] PHP Warning:  PHP Request Startup: Failed to open stream: Permission denied in Unknown on line 0
+[05-Aug-2026 09:23:25 UTC] PHP Warning:  PHP Request Startup: Failed to open stream: Permission denied in Unknown on line 0
+[05-Aug-2026 09:23:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in /var/www/app/config/database.php:19
+Stack trace:
+#0 /var/www/app/config/database.php(19): PDO->__construct()
+#1 /var/www/app/public/actions/login.php(18): get_db()
+#2 {main}
+  thrown in /var/www/app/config/database.php on line 19
+[05-Aug-2026 09:24:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in /var/www/app/config/database.php:19
+Stack trace:
+#0 /var/www/app/config/database.php(19): PDO->__construct()
+#1 /var/www/app/public/actions/login.php(18): get_db()
+#2 {main}
+  thrown in /var/www/app/config/database.php on line 19
+[05-Aug-2026 09:24:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in /var/www/app/config/database.php:19
+Stack trace:
+#0 /var/www/app/config/database.php(19): PDO->__construct()
+#1 /var/www/app/public/actions/login.php(18): get_db()
+#2 {main}
+  thrown in /var/www/app/config/database.php on line 19
+[05-Aug-2026 09:25:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in /var/www/app/config/database.php:19
+Stack trace:
+#0 /var/www/app/config/database.php(19): PDO->__construct()
+#1 /var/www/app/public/actions/login.php(18): get_db()
+#2 {main}
+  thrown in /var/www/app/config/database.php on line 19
+[05-Aug-2026 09:25:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [14] unable to open database file in /var/www/app/config/database.php:19
+Stack trace:
+#0 /var/www/app/config/database.php(19): PDO->__construct()
+#1 /var/www/app/public/actions/login.php(18): get_db()
+#2 {main}
+  thrown in /var/www/app/config/database.php on line 19

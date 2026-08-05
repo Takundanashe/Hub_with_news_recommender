@@ -1,0 +1,176 @@
+===== 2026-08-05 22:48:44 — recommender run starting =====
+--- cluster_posts.py ---
+/var/www/app/recommender/run_recommender.sh: line 22: /home/takunda/anaconda3/envs/app_news_recommender/bin/python3: Permission denied
+===== 2026-08-05 22:51:52 — recommender run starting =====
+--- cluster_posts.py ---
+/var/www/app/recommender/run_recommender.sh: line 22: /home/takunda/anaconda3/envs/app_news_recommender/bin/python3: Permission denied
+===== 2026-08-05 22:52:27 — recommender run starting =====
+--- cluster_posts.py ---
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Embedding 20 posts...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  30%|███       | 31/103 [00:00<00:00, 262.49it/s]Loading weights:  57%|█████▋    | 59/103 [00:00<00:00, 126.30it/s]Loading weights:  74%|███████▍  | 76/103 [00:00<00:00, 90.00it/s] Loading weights: 100%|██████████| 103/103 [00:00<00:00, 134.56it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:04<00:00,  4.73s/it]Batches: 100%|██████████| 1/1 [00:04<00:00,  4.73s/it]
+2026-08-05 22:55:36,443 - BERTopic - WARNING: Using a custom list of topic assignments may lead to errors if topic reduction techniques are used afterwards. Make sure that manually assigning topics is the last step in the pipeline.Note that topic embeddings will also be created through weightedc-TF-IDF embeddings instead of centroid embeddings.
+Clustering...
+Reassigning 4 noise-bucket posts...
+Discovered 2 clusters (2 still unclustered)
+Writing cluster_id back to news_posts...
+Traceback (most recent call last):
+  File "/var/www/app/recommender/cluster_posts.py", line 97, in <module>
+    main(args.db, args.min_cluster_size)
+  File "/var/www/app/recommender/cluster_posts.py", line 77, in main
+    cur.executemany(
+sqlite3.OperationalError: attempt to write a readonly database
+===== 2026-08-05 23:09:46 — recommender run starting =====
+--- cluster_posts.py ---
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Embedding 20 posts...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4387.88it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.17it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.17it/s]
+2026-08-05 23:10:33,575 - BERTopic - WARNING: Using a custom list of topic assignments may lead to errors if topic reduction techniques are used afterwards. Make sure that manually assigning topics is the last step in the pipeline.Note that topic embeddings will also be created through weightedc-TF-IDF embeddings instead of centroid embeddings.
+Clustering...
+Reassigning 4 noise-bucket posts...
+Discovered 2 clusters (2 still unclustered)
+Writing cluster_id back to news_posts...
+Traceback (most recent call last):
+  File "/var/www/app/recommender/cluster_posts.py", line 97, in <module>
+    main(args.db, args.min_cluster_size)
+  File "/var/www/app/recommender/cluster_posts.py", line 77, in main
+    cur.executemany(
+sqlite3.OperationalError: attempt to write a readonly database
+===== 2026-08-05 23:47:15 — recommender run starting =====
+--- cluster_posts.py ---
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Embedding 20 posts...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4542.54it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.67it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.67it/s]
+2026-08-05 23:47:58,043 - BERTopic - WARNING: Using a custom list of topic assignments may lead to errors if topic reduction techniques are used afterwards. Make sure that manually assigning topics is the last step in the pipeline.Note that topic embeddings will also be created through weightedc-TF-IDF embeddings instead of centroid embeddings.
+Clustering...
+Reassigning 4 noise-bucket posts...
+Discovered 2 clusters (2 still unclustered)
+Writing cluster_id back to news_posts...
+Traceback (most recent call last):
+  File "/var/www/app/recommender/cluster_posts.py", line 97, in <module>
+    main(args.db, args.min_cluster_size)
+  File "/var/www/app/recommender/cluster_posts.py", line 77, in main
+    cur.executemany(
+sqlite3.OperationalError: attempt to write a readonly database
+===== 2026-08-05 23:49:55 — recommender run starting =====
+--- cluster_posts.py ---
+/var/www/app/recommender/run_recommender.sh: line 22: /home/takunda/anaconda3/envs/app_news_recommender/bin/python3: Permission denied
+===== 2026-08-05 23:50:13 — recommender run starting =====
+--- cluster_posts.py ---
+/var/www/app/recommender/run_recommender.sh: line 22: /home/takunda/anaconda3/envs/app_news_recommender/bin/python3: Permission denied
+===== 2026-08-05 23:51:30 — recommender run starting =====
+--- cluster_posts.py ---
+/var/www/app/recommender/run_recommender.sh: line 22: /home/takunda/anaconda3/envs/app_news_recommender/bin/python3: Permission denied
+===== 2026-08-05 23:52:28 — recommender run starting =====
+--- cluster_posts.py ---
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Embedding 20 posts...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5225.76it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.68it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.68it/s]
+2026-08-05 23:53:10,821 - BERTopic - WARNING: Using a custom list of topic assignments may lead to errors if topic reduction techniques are used afterwards. Make sure that manually assigning topics is the last step in the pipeline.Note that topic embeddings will also be created through weightedc-TF-IDF embeddings instead of centroid embeddings.
+Clustering...
+Reassigning 4 noise-bucket posts...
+Discovered 2 clusters (2 still unclustered)
+Writing cluster_id back to news_posts...
+Traceback (most recent call last):
+  File "/var/www/app/recommender/cluster_posts.py", line 97, in <module>
+    main(args.db, args.min_cluster_size)
+  File "/var/www/app/recommender/cluster_posts.py", line 77, in main
+    cur.executemany(
+sqlite3.OperationalError: attempt to write a readonly database
+===== 2026-08-05 23:56:57 — recommender run starting =====
+--- cluster_posts.py ---
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Embedding 20 posts...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4132.36it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.69it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.69it/s]
+2026-08-05 23:57:39,876 - BERTopic - WARNING: Using a custom list of topic assignments may lead to errors if topic reduction techniques are used afterwards. Make sure that manually assigning topics is the last step in the pipeline.Note that topic embeddings will also be created through weightedc-TF-IDF embeddings instead of centroid embeddings.
+Clustering...
+Reassigning 4 noise-bucket posts...
+Discovered 2 clusters (2 still unclustered)
+Writing cluster_id back to news_posts...
+Traceback (most recent call last):
+  File "/var/www/app/recommender/cluster_posts.py", line 97, in <module>
+    main(args.db, args.min_cluster_size)
+  File "/var/www/app/recommender/cluster_posts.py", line 77, in main
+    cur.executemany(
+sqlite3.OperationalError: attempt to write a readonly database
+===== 2026-08-06 00:22:48 — recommender run starting =====
+--- cluster_posts.py ---
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Embedding 20 posts...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5494.33it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.42it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.42it/s]
+2026-08-06 00:25:50,561 - BERTopic - WARNING: Using a custom list of topic assignments may lead to errors if topic reduction techniques are used afterwards. Make sure that manually assigning topics is the last step in the pipeline.Note that topic embeddings will also be created through weightedc-TF-IDF embeddings instead of centroid embeddings.
+Clustering...
+Reassigning 4 noise-bucket posts...
+Discovered 2 clusters (2 still unclustered)
+Writing cluster_id back to news_posts...
+Traceback (most recent call last):
+  File "/var/www/app/recommender/cluster_posts.py", line 97, in <module>
+    main(args.db, args.min_cluster_size)
+  File "/var/www/app/recommender/cluster_posts.py", line 77, in main
+    cur.executemany(
+sqlite3.OperationalError: attempt to write a readonly database
+===== 2026-08-06 02:02:58 — recommender run starting =====
+--- cluster_posts.py ---
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Embedding 20 posts...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4313.92it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.13s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.13s/it]
+2026-08-06 02:03:55,036 - BERTopic - WARNING: Using a custom list of topic assignments may lead to errors if topic reduction techniques are used afterwards. Make sure that manually assigning topics is the last step in the pipeline.Note that topic embeddings will also be created through weightedc-TF-IDF embeddings instead of centroid embeddings.
+Clustering...
+Reassigning 4 noise-bucket posts...
+Discovered 2 clusters (2 still unclustered)
+Writing cluster_id back to news_posts...
+Traceback (most recent call last):
+  File "/var/www/app/recommender/cluster_posts.py", line 97, in <module>
+    main(args.db, args.min_cluster_size)
+  File "/var/www/app/recommender/cluster_posts.py", line 77, in main
+    cur.executemany(
+sqlite3.OperationalError: attempt to write a readonly database
+===== 2026-08-06 02:21:51 — recommender run starting =====
+--- cluster_posts.py ---
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Embedding 20 posts...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5417.77it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.44it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.44it/s]
+2026-08-06 02:22:36,450 - BERTopic - WARNING: Using a custom list of topic assignments may lead to errors if topic reduction techniques are used afterwards. Make sure that manually assigning topics is the last step in the pipeline.Note that topic embeddings will also be created through weightedc-TF-IDF embeddings instead of centroid embeddings.
+Clustering...
+Reassigning 4 noise-bucket posts...
+Discovered 2 clusters (2 still unclustered)
+Writing cluster_id back to news_posts...
+Model saved to /var/www/app/recommender/models/bertopic_model
+--- train_recommender.py ---
+/home/takunda/anaconda3/envs/app_news_recommender/lib/python3.12/site-packages/implicit/cpu/als.py:96: RuntimeWarning: OpenBLAS is configured to use 4 threads. It is highly recommended to disable its internal threadpool by setting the environment variable 'OPENBLAS_NUM_THREADS=1' or by calling 'threadpoolctl.threadpool_limits(1, "blas")'. Having OpenBLAS use a threadpool can lead to severe performance issues here.
+  check_blas_config()
+  0%|          | 0/15 [00:00<?, ?it/s]  7%|▋         | 1/15 [00:00<00:01,  9.38it/s]100%|██████████| 15/15 [00:00<00:00, 134.03it/s]
+ALS trained: 3 users, 12 items, 4 factors
+Wrote 86 ALS candidate rows
+Wrote 0 bridge rules
+===== 2026-08-06 02:22:40 — recommender run finished =====
+
+===== 2026-08-06 03:00:01 — recommender run starting =====
+--- cluster_posts.py ---
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Embedding 20 posts...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3323.20it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.94it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.94it/s]
+2026-08-06 03:00:38,325 - BERTopic - WARNING: Using a custom list of topic assignments may lead to errors if topic reduction techniques are used afterwards. Make sure that manually assigning topics is the last step in the pipeline.Note that topic embeddings will also be created through weightedc-TF-IDF embeddings instead of centroid embeddings.
+Clustering...
+Reassigning 4 noise-bucket posts...
+Discovered 2 clusters (2 still unclustered)
+Writing cluster_id back to news_posts...
+Model saved to /var/www/app/recommender/models/bertopic_model
+--- train_recommender.py ---
+/home/takunda/anaconda3/envs/app_news_recommender/lib/python3.12/site-packages/implicit/cpu/als.py:96: RuntimeWarning: OpenBLAS is configured to use 4 threads. It is highly recommended to disable its internal threadpool by setting the environment variable 'OPENBLAS_NUM_THREADS=1' or by calling 'threadpoolctl.threadpool_limits(1, "blas")'. Having OpenBLAS use a threadpool can lead to severe performance issues here.
+  check_blas_config()
+  0%|          | 0/15 [00:00<?, ?it/s]100%|██████████| 15/15 [00:00<00:00, 5329.48it/s]
+ALS trained: 3 users, 12 items, 4 factors
+Wrote 86 ALS candidate rows
+Wrote 0 bridge rules
+===== 2026-08-06 03:00:41 — recommender run finished =====
+
