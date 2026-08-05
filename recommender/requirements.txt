@@ -1,0 +1,7 @@
+sentence-transformers
+bertopic
+scikit-learn
+umap-learn
+hdbscan
+implicit
+mlxtend
