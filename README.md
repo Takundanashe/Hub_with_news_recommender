@@ -193,7 +193,4 @@ Non-zero counts with a recent `computed_at` confirm the pipeline is producing re
 - Dwell-time tracking (currently only impressions and reactions are logged, not time-on-post)
 - Diversity re-ranking pass (MMR) on the live feed query
 - Dynamic slot ratios (time of day, weekend, breaking-content boosts) instead of the current fixed blend
-
-## License
-
-*(add your preferred license here)*
+- Adding market items recommender,  
